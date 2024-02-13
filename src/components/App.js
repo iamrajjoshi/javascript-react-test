@@ -59,7 +59,7 @@ class App extends Component {
   }
 
   buyItem(item) {
-    
+
     const cart = [].concat(this.state.cart);
     cart.push(item);
     console.log(item);
@@ -79,6 +79,7 @@ class App extends Component {
   }
 
   resetCart(event) {
+    
     event.preventDefault();
     this.setState({ cart: [], hasError: false, success: false });
 
