@@ -79,7 +79,7 @@ class App extends Component {
   }
 
   resetCart(event) {
-    
+
     event.preventDefault();
     this.setState({ cart: [], hasError: false, success: false });
 
@@ -95,6 +95,7 @@ class App extends Component {
   }
 
   checkout() {
+    
     // Generate an error
     // this.myCodeIsMorePerfect();
 
